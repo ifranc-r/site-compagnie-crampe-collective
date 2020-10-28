@@ -1,0 +1,10 @@
+mixin projet(projetData)
+  .projet
+    img(class='imgprojet' src= projetData.imgsrc)
+    details.div-detail
+      summary.titleprojet= projetData.title
+      p.sommaireprojet= projetData.details
+      if projetData.videosrc
+        iframe(class='trailervideo' src= projetData.videosrc allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      if projetData.imgdetails
+        img(class='imgdetails' src= projetData.imgdetails)

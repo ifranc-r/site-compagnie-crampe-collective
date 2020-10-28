@@ -1,0 +1,22 @@
+
+extends layout
+
+include mixins/mixin_contact
+
+block style
+
+block content
+  .contact_content
+    h1= "Nos contacts"
+    each contact in contacts
+      +contact(contact)
+  h1= "Envoyez nous un message"
+  .form_contact_us
+    form(id="login" action="/signin" method="post")
+      input(type="text", name="nom", value="", placeholder="Nom")
+      br
+      input(type="text", name="email", value="", placeholder="Email")
+      br
+      input(type="text", name="message", value="", placeholder="Message")
+      br
+      input(type="submit" value="Envoyer")

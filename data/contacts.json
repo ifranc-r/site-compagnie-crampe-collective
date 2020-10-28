@@ -1,0 +1,28 @@
+{
+  "contacts": [
+      {
+        "role": "Auteur metteur en scène",
+        "nom": "Thibaud d’Abbesses",
+        "email":"tdabbesses@gmail.com",
+        "numero": "06 73 05 65 03",
+        "adress": "47 rue Marignan",
+        "ville": "13007 Marseille"
+      },
+      {
+        "role": "Administration",
+        "nom": "Bureau Collectif",
+        "email":"Bureaucollectifasso@gmail.com",
+        "numero": "",
+        "adress": "57 rue Albert Dhalenné",
+        "ville": "93400 Saint-Ouen"
+      },
+      {
+        "role": "Production",
+        "nom": "Hydropathes",
+        "email":"leshydropathes@gmail.com",
+        "numero": "",
+        "adress": "9 rue Eugène Carrère",
+        "ville": "75018 Paris"
+      }
+  ]
+}

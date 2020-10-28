@@ -1,0 +1,32 @@
+{
+  "projets": [
+      {
+        "imgsrc": "assets/projets/1.Alchimine/img.jpg",
+        "title": "Alchimiste",
+        "videosrc": "https://www.youtube.com/embed/USzVY0iet0o",
+        "imgdetails": "",
+        "details": "assets/projets/1.Alchimine/details.text"
+      },
+      {
+        "imgsrc": "assets/projets/2.Le_Tas/img.JPG",
+        "title": "Le Tas",
+        "videosrc": "https://www.youtube.com/embed/L05WyXMTECA",
+        "imgdetails": "",
+        "details": "assets/projets/2.Le_Tas/details.text"
+      },
+      {
+        "imgsrc": "assets/projets/3.Bassin_nu/img.jpg",
+        "title": "Bassin nu",
+        "videosrc": "",
+        "imgdetails": "assets/projets/3.Bassin_nu/Photos/Horachina.JPG",
+        "details": "assets/projets/3.Bassin_nu/details.text"
+      },
+      {
+        "imgsrc": "assets/projets/4.Aux_Portes_de_lextase/Photos/Participant.jpg",
+        "title": "Aux Portes de l'extase",
+        "videosrc": "https://www.youtube.com/embed/cy_F5s_qOPc",
+        "imgdetails": "",
+        "details": "assets/projets/4.Aux_Portes_de_lextase/details.text"
+      }
+  ]
+}

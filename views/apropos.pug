@@ -1,0 +1,26 @@
+extends layout
+
+include mixins/mixin_partenaires
+
+block style
+  link(rel="stylesheet" href="css/mixins_style/partenaire_mixin.css")
+
+block content
+  .descr="La Compagnie Crampe Collective (CCC)"
+    p.description_apropos La Compagnie Crampe Collective (CCC) veut réenchanter le monde. Elle veut tracer par le geste et le verbe les nouveaux éléments d’un sacré accessible, celui de la poésie et du théâtre. Elle veut créer une esthétique du soin et un théâtre thérapeutique.
+      br
+      br
+      |Pour ce faire, la Compagnie Crampe Collective place au cœur de ses préoccupations le lien social. D’une part, bien évidemment, il y a le lien qui est visible sur scène et présent par nature dans la communion d’un public, mais nous voulons aller plus loin. Notre volonté est de questionner et de repenser la place donnée physiquement aux spectateurs dans l’espace afin de créer des ponts allant jusqu’aux expériences immersives et participatives, et ce dans un esprit de partage. La représentation s’apparente ainsi à un long rituel destiné à célébrer l’esprit qui nous rassemble. 
+      br
+      br
+      |La Compagnie Crampe Collective monte habituellement des projets originaux écrits par son metteur en scène en collaboration avec les acteur.ice.s et les plasticien.ne.s de la troupe. Les sujets sont d’inspirations religieuses et mystiques, sans céder au folklore. Nous voulons retrouver la puissance vitale de certains symboles anciens en les dépoussiérant et les intégrant à une dramaturgie contemporaine.  Nous nous inspirons en cela de l’idée d’une «psychomagie» jodorowskienne : une utilisation libre des symboles pour répondre aux besoins de la psyché. Dans nos propositions, les accessoires manipulés, les gestes perpétrés et l’espace dessiné ont un rôle primordial - ce sont autant d’outils dans la pharmacopée imaginaire des procédures magiques. L’histoire est souvent tressée sur le canevas de la quête et teintée de motifs contemporains : le voyage fait écho aux enjeux du tourisme, le mystère alchimique aux secrets informatiques. 
+      br
+      br
+      |Dès le début de son existence, la compagnie a développé son esthétique du soin en relation direct avec les publics. A mesure que les spectacles grandissent, elle souhaite conserver cet ADN à la fois sur scène et tout le long de l’année à l’occasion d’ateliers avec des publics dédiés. Ces ateliers sont l’occasion d’expérimenter et de jauger les potentialités réelles d’un théâtre thérapeutique. En partant d’ateliers d’écriture, il s’agit de réinterpréter des scénarios typiques de la quête salvatrice. Le mal est porté par un acteur-participant, qui doit donc partir à la recherche d’un remède. Sur la voie, il rencontre différents adjuvants qui l’accompagnent et permettent de résoudre son conflit. L’atelier propose ainsi d’expérimenter par la fiction la gestion collective d’un problème individuel.
+
+  h1 Les partenaires
+  each partenaire in partenaires_list
+    +partenaire(partenaire)
+
+  
+  

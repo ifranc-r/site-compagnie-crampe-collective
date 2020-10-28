@@ -1,0 +1,27 @@
+
+extends layout
+
+include mixins/mixin_equipe
+
+block style
+  link(rel="stylesheet" href="css/mixins_style/mixin_equipe.css")
+  
+block content
+  .contact_content
+    p.description_equipe La Compagnie Crampe Collective a été fondée en 2018 par Thibaud d’Abbesses, poète, dramaturge, performeur et metteur en scène. Thibaud d’Abbesses a d’abord été formé à l’écriture à l’Ecole Normale Supérieure de Paris avant de suivre une troupe de comédiens du Conservatoire National Supérieur d’Art Dramatique pendant deux ans afin de parfaire sa connaissance de la scène. Parallèlement, il a été résident pendant un an et demi dans l’artist-run-space Le Wonder-Leibert où il s’est initié à la performance et à l’art contemporain. Il a également créé, dès 2010, l’association Hydropathes dédiée à la fête et aux cultures techno.
+    
+    |Dès l’origine, la troupe comprend Gabrielle Laurin Mercury et Clémence Mars, deux artistes formées à la scénographie à l’Ecole Nationale Supérieure des Arts Décoratifs et à la performance à l’Ecole du Théâtre Visuel de Jérusalem. Gabrielle Laurin Mercury dirige les conceptions scénographiques et Clémence Mars se spécialise en lumières. Un soin particulier est accordé au rendu graphique et plastique des spectacles.
+    br
+    br
+    |La compagnie est aussi composée de plusieurs acteur.rice.s issu.e.s du Conservatoire National, avec lesquel.le.s Thibaud d’Abbesses a tissé une relation durable depuis 2017. Une longue entente leur permet de porter au mieux les exigences de l’esthétique de la troupe.
+    br
+    br
+    |Crampe Collective bénéficie également de la collaboration régulière d’un chanteur-compositeur, Maxime Jerry Fraisse, formé à la musique et au chant mais aussi aux arts de la scène au Conservatoire à Rayonnement Régional de Paris ; d’un régisseur général, Hadrien Tissier, avec lequel Thibaud d’Abbesses travaille depuis dix ans dans l’association Hydropathes ; et d’une costumière, Bérangère Pivot, également chargée de costumes à l’Opéra de Paris.
+    br
+    br
+    |Dans l’esprit des cirques ou des anciennes troupes itinérantes, la compagnie cultive une porosité entre la scène et la technique. Elle met à profit les formations au jeu, à la performance ou à la musique, des membres de la troupe non-acteurs, que ce soit en marge du spectacle, pour les changements de plateau, ou jusqu’en son milieu.
+  .form_contact_us
+    h1= "L'equipe"
+    each equipe in equipes
+      +equipe(equipe)
+    

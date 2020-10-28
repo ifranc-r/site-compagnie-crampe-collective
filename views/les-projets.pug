@@ -1,0 +1,14 @@
+
+extends layout
+
+include mixins/mixin_projet
+
+block style
+  link(rel="stylesheet" href="css/mixins_style/projet_mixin.css")
+  
+block content
+
+  each projet in projets_list
+    +projet(projet)
+  script(src="scripts/projet.js")
+  

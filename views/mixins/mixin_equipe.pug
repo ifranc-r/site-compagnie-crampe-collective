@@ -1,0 +1,10 @@
+
+mixin equipe(equipeData)
+  .equipe
+    .photo
+      img(class='imgequipe' src=equipeData.imgsrc)
+      h4=equipeData.nom
+    .description_equipe
+      p.role-equipe=equipeData.role
+      a(href=equipeData.cv): button(class="details-cv" type="button") Details (liens cv)
+      

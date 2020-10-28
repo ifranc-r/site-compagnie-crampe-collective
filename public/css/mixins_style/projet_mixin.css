@@ -1,0 +1,32 @@
+.imgprojet {
+	margin: 16px;
+	margin-top: 16px;
+	width: 50%;
+}
+
+.trailervideo {
+	margin: 16px;
+	margin-top: 16px;
+	height: 100%;
+	width: 60%;
+  autoplay: 0;
+	allowfullscreen:;
+}
+
+.div-details {
+	margin: 16px;
+	margin-top: 16px;
+	width: 60%;
+}
+
+.sommaireprojet {
+	margin: 16px;
+	margin-top: 16px;
+	width: 60%;
+}
+
+.imgdetails {
+	margin: 16px;
+	margin-top: 16px;
+	width: 600%;
+}

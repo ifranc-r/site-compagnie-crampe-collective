@@ -1,0 +1,24 @@
+{
+  "partenaires": [
+      {
+        "imgsrc": "assets/partenaires/Bellastock.jpg",
+        "nom": "Bellastock"
+      },
+      {
+        "imgsrc": "assets/partenaires/collectif_parallèle.png",
+        "nom": "Collectif Parallèle"
+      },
+      {
+        "imgsrc": "assets/partenaires/Hydropathes.png",
+        "nom": "Hydropathes"
+      },
+      {
+        "imgsrc": "assets/partenaires/Jeune-Théâtre-National.jpg",
+        "nom": "Jeune Théâtre National"
+      },
+      {
+        "imgsrc": "assets/partenaires/La_Station-Gare_des_Mines.jpg",
+        "nom": "La Station - Gare des Mines"
+      }
+  ]
+}

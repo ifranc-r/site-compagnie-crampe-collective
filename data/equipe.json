@@ -1,0 +1,40 @@
+{
+  "equipe": [
+      {
+        "imgsrc": "assets/equipe/img/thibaud_d_abbesses.png",
+        "nom": "Thibaud d'Abbesses",
+        "role": "Auteur Metteur En Scène",
+        "cv": "assets/equipe/img/CVs/Thibaud_d_Abbesses.pdf"
+      },
+      {
+        "imgsrc": "assets/equipe/img/gabrielle_laurin_mercury.png",
+        "nom": "Gabrielle Laurin Mercury",
+        "role": "Scénographe",
+        "cv": "assets/equipe/img/CVs/Gabrielle_Laurin_Mercury.pdf"
+      },
+      {
+        "imgsrc": "assets/equipe/img/hadrien_tissier.jpg",
+        "nom": "Hadrien Tissier",
+        "role": "Régisseur Général & Chargé de Production",
+        "cv": "assets/equipe/img/CVs/Hadrien_Tissier.pdf"
+      },
+      {
+        "imgsrc": "assets/equipe/img/maxime_jerry_fraisse.jpg",
+        "nom": "Maxime Jerry Fraisse",
+        "role": "Musicien Compositeur Interprète",
+        "cv": "assets/equipe/img/CVs/Maxime_Jerry_Fraisse.pdf"
+      },
+      {
+        "imgsrc": "assets/equipe/img/clemence_mars.png",
+        "nom": "Clémence Mars",
+        "role": "Conceptrice Lumières",
+        "cv": "assets/equipe/img/CVs/Clemence_Mars.pdf"
+      },
+      {
+        "imgsrc": "assets/equipe/img/isis_ravel.png",
+        "nom": "Isis Ravel",
+        "role": "Actrice",
+        "cv": "assets/equipe/img/CVs/Isis_Ravel.pdf"
+      }
+  ]
+}

@@ -1,0 +1,27 @@
+doctype html
+html(translate="no")
+
+  head
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")
+    script(src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js")
+    link(rel="stylesheet" href="css/font.css")
+    link(rel="stylesheet" href="css/layout.css")
+    title= title
+    block style
+  body
+    
+    div(class="intro", style="display :visible;")
+      h1.titre_intro La Compagnie Crampe Collective 
+      p.accroche La Compagnie Crampe Collective est une troupe de spectacle vivant opérant aux frontières du théâtre, de la performance et des arts plastiques. Notre travail se caractérise en particulier par le développement d’une esthétique du soin inspirée par la psychomagie jodorowskienne et les syncrétismes rituels. 
+    
+    
+    div(class="layout", style="display :none;")
+      h1.titre_layout La Compagnie Crampe Collective 
+      div.nav_bar 
+        div(href="/") Les projets
+        div(href="/equipe") L'equipe
+        div(href="/apropos") À propos
+        div(href="/contact-us") Contactez-nous
+      script(src="scripts/intro.js")
+      block content
